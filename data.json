@@ -1,0 +1,10 @@
+[
+  { "name": "Habit0", "habit": "Running", "rating": 3, "notes": [] },
+  { "name": "Habit1", "habit": "Gym", "rating": 2, "notes": [] },
+  { "name": "Habit2", "habit": "Brushing Teeth", "rating": 4, "notes": [] },
+  { "name": "Habit3", "habit": "Reading", "rating": 1, "notes": [] },
+  { "name": "Habit4", "habit": "Making Bed", "rating": 3, "notes": [] },
+  { "name": "Habit5", "habit": "Reading", "rating": 2, "notes": [] },
+  { "name": "Habit6", "habit": "Podcasting", "rating": 2, "notes": [] },
+  { "name": "Habit7", "habit": "Running", "rating": 5, "notes": [] }
+]
