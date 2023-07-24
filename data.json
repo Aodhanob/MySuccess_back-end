@@ -1,10 +1,50 @@
 [
-  { "name": "Habit0", "habit": "Running", "rating": 3, "notes": [] },
-  { "name": "Habit1", "habit": "Gym", "rating": 2, "notes": [] },
-  { "name": "Habit2", "habit": "Brushing Teeth", "rating": 4, "notes": [] },
-  { "name": "Habit3", "habit": "Reading", "rating": 1, "notes": [] },
-  { "name": "Habit4", "habit": "Making Bed", "rating": 3, "notes": [] },
-  { "name": "Habit5", "habit": "Reading", "rating": 2, "notes": [] },
-  { "name": "Habit6", "habit": "Podcasting", "rating": 2, "notes": [] },
-  { "name": "Habit7", "habit": "Running", "rating": 5, "notes": [] }
+    {
+        "title": "Habit0",
+        "habit": "Walking",
+        "priority": 5,
+        "notes": []
+    },
+    {
+        "title": "Habit1",
+        "habit": "Reading",
+        "priority": 5,
+        "notes": []
+    },
+    {
+        "title": "Habit2",
+        "habit": "Podcasting",
+        "priority": 1,
+        "notes": []
+    },
+    {
+        "title": "Habit3",
+        "habit": "Walking",
+        "priority": 4,
+        "notes": []
+    },
+    {
+        "title": "Habit4",
+        "habit": "Brushing Teeth",
+        "priority": 3,
+        "notes": []
+    },
+    {
+        "title": "Habit5",
+        "habit": "Podcasting",
+        "priority": 3,
+        "notes": []
+    },
+    {
+        "title": "Habit6",
+        "habit": "Running",
+        "priority": 3,
+        "notes": []
+    },
+    {
+        "title": "Habit7",
+        "habit": "Walking",
+        "priority": 5,
+        "notes": []
+    }
 ]

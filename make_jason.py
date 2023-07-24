@@ -10,16 +10,18 @@ def generate_dummy_data():
         "Podcasting",
         "Brushing Teeth",
         "Making Bed",
-        "Eating breakfast",
+        "Walk Dog",
     ]
 
     habit_list = []
 
     for i in range(8):
-        name = "Habit" + str(i)
+        title = "Habit" + str(i)
         habit = habits[random.randint(0, len(habits) - 1)]
-        rating = random.randint(1, 5)
-        habit_list.append({"name": name, "habit": habit, "rating": rating, "notes": []})
+        priority = random.randint(1, 5)
+        habit_list.append(
+            {"title": title, "habit": habit, "priority": priority, "notes": []}
+        )
 
     return habit_list
 
