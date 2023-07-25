@@ -1,66 +1,50 @@
 [
   {
     "title": "Habit0",
-    "habit": "Running",
-    "priority": 2,
-    "notes": [
-      "Notes on how to best carry out habits or any information will be here."
-    ]
+    "habit": "Making Bed",
+    "priority": 1,
+    "notes": []
   },
   {
     "title": "Habit1",
-    "habit": "Making Bed",
-    "priority": 1,
-    "notes": [
-      "Notes on how to best carry out habits or any information will be here."
-    ]
+    "habit": "Reading",
+    "priority": 4,
+    "notes": []
   },
   {
     "title": "Habit2",
-    "habit": "Making Bed",
-    "priority": 1,
-    "notes": [
-      "Notes on how to best carry out habits or any information will be here."
-    ]
+    "habit": "Running",
+    "priority": 4,
+    "notes": []
   },
   {
     "title": "Habit3",
-    "habit": "Brushing Teeth",
-    "priority": 2,
-    "notes": [
-      "Notes on how to best carry out habits or any information will be here."
-    ]
+    "habit": "Making Bed",
+    "priority": 3,
+    "notes": []
   },
   {
     "title": "Habit4",
-    "habit": "Running",
+    "habit": "Podcasting",
     "priority": 5,
-    "notes": [
-      "Notes on how to best carry out habits or any information will be here."
-    ]
+    "notes": []
   },
   {
     "title": "Habit5",
-    "habit": "Making Bed",
-    "priority": 1,
-    "notes": [
-      "Notes on how to best carry out habits or any information will be here."
-    ]
+    "habit": "Reading",
+    "priority": 5,
+    "notes": []
   },
   {
     "title": "Habit6",
-    "habit": "Brushing Teeth",
-    "priority": 3,
-    "notes": [
-      "Notes on how to best carry out habits or any information will be here."
-    ]
+    "habit": "Reading",
+    "priority": 4,
+    "notes": []
   },
   {
     "title": "Habit7",
-    "habit": "Walk Dog",
-    "priority": 3,
-    "notes": [
-      "Notes on how to best carry out habits or any information will be here."
-    ]
+    "habit": "Brushing Teeth",
+    "priority": 5,
+    "notes": []
   }
 ]
