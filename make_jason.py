@@ -19,6 +19,7 @@ def generate_dummy_data():
         title = "Habit" + str(i)
         habit = habits[random.randint(0, len(habits) - 1)]
         priority = random.randint(1, 5)
+        notes = "Notes on how to best carry out habits or any information will be here."
         habit_list.append(
             {"title": title, "habit": habit, "priority": priority, "notes": []}
         )
