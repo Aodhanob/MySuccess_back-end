@@ -190,13 +190,15 @@ def add_habit():
             "title": request.form["title"],
             "habit": request.form["habit"],
             "priority": request.form["priority"],
-            "notes": [],
+            "notes": [request.form],
         }
         new_habit_id = habits.insert_one(new_habit)
         new_habit_link = "http://localhost:5000/api/v1.0/habits/", str(
             new_habit_id.inserted_id
         )
         return make_response(parse_json({"url": new_habit_link}), 201)
+    else:
+        return make_response(parse_json({"Incorrect Parameters Enters"}))
 
 
 # edit one habit
