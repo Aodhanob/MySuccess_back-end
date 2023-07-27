@@ -190,7 +190,7 @@ def add_habit():
             "title": request.form["title"],
             "habit": request.form["habit"],
             "priority": request.form["priority"],
-            "notes": [request.form],
+            "notes": [],
         }
         new_habit_id = habits.insert_one(new_habit)
         new_habit_link = "http://localhost:5000/api/v1.0/habits/", str(
