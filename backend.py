@@ -163,6 +163,42 @@ def show_all_habits():
     return make_response(parse_json(data_to_return), 200)
 
 
+# Show all habits sorted by newest _id
+@app.route("/api/v1.0/habits/newest", methods=["GET"])
+def show_by_newest():
+    page_num, page_size = 1, 10
+    if request.args.get("pn"):
+        page_num = int(request.args.get("pn"))
+    if request.args.get("ps"):
+        page_size = int(request.args.get("ps"))
+    page_start = page_size * (page_num - 1)
+
+    data_to_return = []
+    for habit in (
+        habits.find().sort("_id", -1).skip(page_start).limit(page_size)
+    ):  # Sorted by newest through _id
+        habit["_id"] = str(habit["_id"])
+        data_to_return.append(habit)
+    return make_response(parse_json(data_to_return), 200)
+
+
+# Show all habits sorted by Priority
+@app.route("/api/v1.0/habits/priority", methods=["GET"])
+def sort_by_priority():
+    page_num, page_size = 1, 10
+    if request.args.get("pn"):
+        page_num = int(request.args.get("pn"))
+    if request.args.get("ps"):
+        page_size = int(request.args.get("ps"))
+    page_start = page_size * (page_num - 1)
+
+    data_to_return = []
+    for habit in habits.find().sort("priority", 1).skip(page_start).limit(page_size):
+        habit["_id"] = str(habit["_id"])
+        data_to_return.append(habit)
+    return make_response(parse_json(data_to_return), 200)
+
+
 # Show one habit
 @app.route("/api/v1.0/habits/<string:id>", methods=["GET"])
 def show_one_habit(id):
